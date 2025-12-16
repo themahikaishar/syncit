@@ -1,0 +1,14 @@
+[package]
+name = "syncit"
+version = "0.1.0"
+description = "A Powerful Bidirectional File Synchronizer in Rust"
+authors = ["themahikaishar <themahikaishar@gmail.comm>"]
+edition = "2021"
+repository = "https://github.com/themahikaishar/syncit"
+license = "GPL-2.0"
+readme = "README.md"
+include = ["src/**", "README.md"]
+
+[lib]
+name = "syncit"
+path = "src/lib.rs"
